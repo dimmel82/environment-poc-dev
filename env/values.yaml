@@ -7,6 +7,6 @@ jenkins-x-platform:
     Servers:
       Global:
         EnvVars:
-          DOCKER_REGISTRY: 10.240.36.20:8083
+          DOCKER_REGISTRY: 10.240.36.20:8082
   postinstalljob:
     enabled: "true"
