@@ -1,0 +1,12 @@
+jenkins-x-platform:
+  exposecontroller:
+    exposecontroller:
+      HTTP: "true"
+      TLSACME: "false"
+  jenkins:
+    Servers:
+      Global:
+        EnvVars:
+          DOCKER_REGISTRY: 10.240.36.20:8083
+  postinstalljob:
+    enabled: "true"
